@@ -11,18 +11,14 @@ const Landing = () => {
     <div className="bg-white">
       <main>
         <div className="pt-8 overflow-hidden sm:pt-12 lg:relative lg:py-48">
-          <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24">
+          <div className="mx-auto max-w-md px-4 relative z-10 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
             <div>
-              <div>
-                <img className="h-11 w-auto" src={logo} alt="STX Apps" />
-              </div>
-              <div className="mt-20">
-                <div className="mt-6 sm:max-w-xl">
-                  <h1 className="text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl">
-                    We build great apps on a better, user-owned, decentralized internet
-                  </h1>
-                </div>
-              </div>
+              <img className="h-11 w-auto" src={logo} alt="STX Apps" />
+            </div>
+            <div className="mt-28 sm:max-w-xl lg:mt-20">
+              <h1 className="text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl">
+                We build great apps <br className="hidden sm:inline" />on a better, user-owned, decentralized internet
+              </h1>
             </div>
           </div>
           <div className="sm:mx-auto sm:max-w-3xl sm:px-6">
@@ -43,7 +39,7 @@ const Landing = () => {
         </div>
         <div className="h-12"></div>
         <div className="relative bg-gray-50 py-16 sm:py-24">
-          <div className="mx-auto max-w-md px-4 grid gap-8 sm:max-w-lg sm:px-6 lg:px-0 lg:grid-cols-2 lg:max-w-3xl">
+          <div className="mx-auto max-w-[26rem] px-4 grid gap-8 sm:px-6 lg:px-0 lg:grid-cols-2 lg:max-w-[46rem]">
             <div className="flex flex-col bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="flex-shrink-0 mb-px ring-1 ring-black ring-opacity-5">
                 <img className="h-48 w-full object-cover" src={braceCardImage} alt="" />
@@ -77,7 +73,7 @@ const Landing = () => {
                     </div>
                     <div className="-ml-px w-0 flex-1 flex">
                       <a className="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:ring hover:ring-inset focus:outline-none focus:ring focus:ring-inset" href="https://play.google.com/store/apps/details?id=com.bracedotto" target="_blank" rel="noreferrer">
-                        <img className="w-6 h-6" src={playStoreIcon} aria-hidden="true" />
+                        <img className="w-6 h-6" src={playStoreIcon} aria-hidden="true" alt="Play Store" />
                       </a>
                     </div>
                   </div>
@@ -117,7 +113,7 @@ const Landing = () => {
                     </div>
                     <div className="-ml-px w-0 flex-1 flex">
                       <a className="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:ring hover:ring-inset focus:outline-none focus:ring focus:ring-inset" href="https://play.google.com/store/apps/details?id=com.justnotecc" target="_blank" rel="noreferrer">
-                        <img className="w-6 h-6" src={playStoreIcon} aria-hidden="true" />
+                        <img className="w-6 h-6" src={playStoreIcon} aria-hidden="true" alt="Play Store" />
                       </a>
                     </div>
                   </div>
@@ -143,7 +139,7 @@ const Landing = () => {
             </div>
             <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
               <div className="pt-12 sm:pt-16 lg:pt-20">
-                <h2 className="text-3xl text-gray-900 font-extrabold tracking-tight sm:text-4xl">
+                <h2 className="text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
                   With the world-class technology from <a className="text-indigo-600 rounded hover:underline focus:outline-none focus:ring-2 focus:ring-indigo-500" href="https://www.stacks.co" target="_blank" rel="noreferrer">Stacks</a>
                 </h2>
                 <div className="mt-6 text-gray-500 space-y-6">
@@ -169,7 +165,7 @@ const Landing = () => {
             </div>
           </div>
         </div>
-        <div className="relative py-12 sm:py-16">
+        <div className="relative py-12 overflow-hidden sm:py-16">
           <div aria-hidden="true" className="hidden sm:block">
             <div className="absolute inset-y-0 left-0 w-1/2 bg-gray-50 rounded-r-3xl"></div>
             <svg className="absolute top-8 left-1/2 -ml-3" width="404" height="392" fill="none" viewBox="0 0 404 392">
@@ -182,9 +178,9 @@ const Landing = () => {
             </svg>
           </div>
           <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
-            <div className="relative w-1/2 px-6 py-10 overflow-hidden sm:px-12 sm:py-20">
+            <div className="relative py-10 overflow-hidden sm:w-1/2 sm:px-12 sm:py-20">
               <div className="relative">
-                <div className="sm:text-center">
+                <div className="text-left sm:text-center">
                   <h2 className="text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
                     Contact us
                   </h2>
@@ -198,13 +194,13 @@ const Landing = () => {
         </div>
       </main>
       <footer className="mt-24 bg-gray-900 sm:mt-12">
-        <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-end md:justify-between lg:px-8">
-          <div className="flex justify-start items-center">
+        <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 sm:flex sm:items-end sm:justify-between lg:px-8">
+          <div className="flex justify-center items-center sm:justify-start">
             <img className="h-8 w-auto" src={logo} alt="STX Apps" />
             <div className="text-2xl font-extrabold text-white ml-2">STX Apps</div>
           </div>
           <div className="mt-8 md:mt-0">
-            <div className="flex justify-end">
+            <div className="flex justify-center sm:justify-end">
               <a className="text-gray-400 hover:text-gray-500" href="https://github.com/stxapps" target="_blank" rel="noreferrer">
                 <span className="sr-only">GitHub</span>
                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -212,10 +208,10 @@ const Landing = () => {
                 </svg>
               </a>
             </div>
-            <p className="mt-8 text-right text-base text-gray-400">
+            <p className="mt-8 text-center text-base text-gray-400 sm:text-right">
               Made with ❤ in the Land of Smiles
             </p>
-            <p className="mt-1 text-right text-base text-gray-400">
+            <p className="mt-1 text-center text-base text-gray-400 sm:text-right">
               &copy; 2022 STX Apps Co., Ltd. All rights reserved.
             </p>
           </div>
