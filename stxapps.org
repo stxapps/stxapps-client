@@ -1,0 +1,23 @@
+* POC
+** domain name
+- https://www.stxapps.com
+** Consistent in name
+- STX Apps
+- STX Apps Co., Ltd.
+** Fonts
+- Lato (www.latofonts.com, google-webfonts-helper.herokuapp.com/fonts/lato?subsets=latin)
+** supported screens
+- 5 screens: desktop, tablet:portrait, tablet:landscape, mobile:portrait, mobile:landscape
+* Implementation
+** Web steps
+- yarn create react-app stxapps --template cra-template-pwa
+- yarn add tailwindcss postcss autoprefixer
+- yarn add @tailwindcss/forms @tailwindcss/typography @tailwindcss/aspect-ratio @tailwindcss/line-clamp
+- npx tailwindcss init -p
+- Favicon
+  + cd public
+  + convert logo16.png logo32.png logo48.png logo64.png favicon.ico
+- Font
+  + Config in tailwind.config.js
+  + Add font-face in layer: base in tailwind.css
+- 
