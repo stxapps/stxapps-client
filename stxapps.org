@@ -20,4 +20,12 @@
 - Font
   + Config in tailwind.config.js
   + Add font-face in layer: base in tailwind.css
-- 
+** Server steps
+*** s3
+*** cloudfront, lambda@edge, certificate manager, and namecheap
+*** aws-cli
+* servers
+** test server
+- https://d1uzxgq8or64c4.cloudfront.net
+** prod
+- https://www.stxapps.com
