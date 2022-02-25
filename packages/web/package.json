@@ -1,6 +1,6 @@
 {
   "name": "stxapps-client-web",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "scripts": {
     "start": "HTTPS=true BROWSER=none react-scripts start",
