@@ -212,7 +212,7 @@ const Landing = () => {
               Made with ❤ in the Land of Smiles
             </p>
             <p className="mt-1 text-center text-base text-gray-400 sm:text-right">
-              &copy; 2022 STX Apps Co., Ltd. All rights reserved.
+              &copy; 2023 STX Apps Co., Ltd. All rights reserved.
             </p>
           </div>
         </div>
