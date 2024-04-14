@@ -51,7 +51,7 @@ const Landing = () => {
                       Brace.to
                     </p>
                     <p className="mt-3 text-base text-gray-500">
-                      Your bookmark manager with privacy at heart. Brace.to helps you save links to everything and visit them later easily, anytime, on any of your devices.
+                      Your bookmark manager with privacy at heart. Brace.to helps you save links to everything and visit them later easily, anytime, on any device.
                     </p>
                   </a>
                 </div>
