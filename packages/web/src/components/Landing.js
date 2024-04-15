@@ -17,7 +17,7 @@ const Landing = () => {
             </div>
             <div className="mt-28 sm:max-w-xl lg:mt-20">
               <h1 className="text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl">
-                We build great apps <br className="hidden sm:inline" />on a user-owned, decentralized internet
+                We build great apps <br className="hidden sm:inline" />on a better, user-owned, decentralized internet
               </h1>
             </div>
           </div>
@@ -51,7 +51,7 @@ const Landing = () => {
                       Brace.to
                     </p>
                     <p className="mt-3 text-base text-gray-500">
-                      Your bookmark manager with privacy at heart. Brace.to helps you save links to everything and visit them later easily, anytime, on any device.
+                      Save links to everything and visit them later easily, anytime, on any device, with Web3 technology that empowers you to truly own your account and data.
                     </p>
                   </a>
                 </div>
@@ -91,7 +91,7 @@ const Landing = () => {
                       Justnote
                     </p>
                     <p className="mt-3 text-base text-gray-500">
-                      Justnote is a privacy-focused note-taking app that you can use easily, take notes rapidly, and, importantly, have full control of your data.
+                      Justnote is a privacy-focused note-taking app that you can use easily, take notes rapidly, and, importantly, truly own your account and data.
                     </p>
                   </a>
                 </div>
@@ -140,11 +140,11 @@ const Landing = () => {
             <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
               <div className="pt-12 sm:pt-16 lg:pt-20">
                 <h2 className="text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
-                  Utilizing world-class technology from <a className="text-indigo-600 rounded hover:underline focus:outline-none focus:ring-2 focus:ring-indigo-500" href="https://www.hiro.so/stacks-js" target="_blank" rel="noreferrer">Stacks</a>
+                  Utilizing Web3 technology from <a className="text-indigo-600 rounded hover:underline focus:outline-none focus:ring-2 focus:ring-indigo-500" href="https://www.hiro.so/stacks-js" target="_blank" rel="noreferrer">Stacks</a>
                 </h2>
                 <div className="mt-6 text-gray-500 space-y-6">
                   <p className="text-lg">
-                    A technology that allows you to own your accounts and your data truly
+                    A technology that allows you to truly own your accounts and your data
                   </p>
                 </div>
               </div>
