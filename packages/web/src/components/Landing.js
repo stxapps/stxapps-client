@@ -16,9 +16,7 @@ const Landing = () => {
               <img className="h-11 w-auto" src={logo} alt="STX Apps" />
             </div>
             <div className="mt-28 sm:max-w-xl lg:mt-20">
-              <h1 className="text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl">
-                We build great apps <br className="hidden sm:inline" />on a better, user-owned, decentralized internet
-              </h1>
+              <h1 className="text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl">We build great apps <br className="hidden sm:inline" />on a better, user-owned, decentralized internet</h1>
             </div>
           </div>
           <div className="sm:mx-auto sm:max-w-3xl sm:px-6">
@@ -47,12 +45,8 @@ const Landing = () => {
               <div className="flex-1 bg-white flex flex-col justify-between divide-y divide-gray-200">
                 <div className="flex-1 p-6">
                   <a className="block mt-2 rounded focus:outline-none focus:ring focus:ring-offset-4" href="https://brace.to" target="_blank" rel="noreferrer">
-                    <p className="text-xl font-semibold text-gray-900">
-                      Brace.to
-                    </p>
-                    <p className="mt-3 text-base text-gray-500">
-                      Save links to everything and visit them later easily, anytime, on any device, with Web3 technology that empowers you to truly own your account and data.
-                    </p>
+                    <p className="text-xl font-semibold text-gray-900">Brace.to</p>
+                    <p className="mt-3 text-base text-gray-500">Save links to everything and visit them later easily, anytime, on any device, with Web3 technology that empowers you to truly own your account and data.</p>
                   </a>
                 </div>
                 <div className="mt-6">
@@ -87,12 +81,8 @@ const Landing = () => {
               <div className="flex-1 bg-white flex flex-col justify-between divide-y divide-gray-200">
                 <div className="flex-1 p-6">
                   <a className="block mt-2 rounded focus:outline-none focus:ring focus:ring-offset-4" href="https://justnote.cc" target="_blank" rel="noreferrer">
-                    <p className="text-xl font-semibold text-gray-900">
-                      Justnote
-                    </p>
-                    <p className="mt-3 text-base text-gray-500">
-                      Justnote is a privacy-focused note-taking app that you can use easily, take notes rapidly, and, importantly, truly own your account and data.
-                    </p>
+                    <p className="text-xl font-semibold text-gray-900">Justnote</p>
+                    <p className="mt-3 text-base text-gray-500">A simple, fast, privacy-focused note-taking app that you can use easily, take notes rapidly, and, importantly, truly own your account and data.</p>
                   </a>
                 </div>
                 <div className="mt-6">
@@ -139,13 +129,9 @@ const Landing = () => {
             </div>
             <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
               <div className="pt-12 sm:pt-16 lg:pt-20">
-                <h2 className="text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
-                  Utilizing Web3 technology from <a className="text-indigo-600 rounded hover:underline focus:outline-none focus:ring-2 focus:ring-indigo-500" href="https://www.hiro.so/stacks-js" target="_blank" rel="noreferrer">Stacks</a>
-                </h2>
+                <h2 className="text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">Utilizing Web3 technology from <a className="text-indigo-600 rounded hover:underline focus:outline-none focus:ring-2 focus:ring-indigo-500" href="https://www.hiro.so/stacks-js" target="_blank" rel="noreferrer">Stacks</a></h2>
                 <div className="mt-6 text-gray-500 space-y-6">
-                  <p className="text-lg">
-                    A technology that allows you to truly own your accounts and your data
-                  </p>
+                  <p className="text-lg">A technology that allows you to truly own your accounts and your data</p>
                 </div>
               </div>
             </div>
@@ -155,12 +141,8 @@ const Landing = () => {
           <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
             <div className="lg:grid lg:grid-cols-2 lg:gap-24 lg:items-center">
               <div>
-                <h2 className="text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
-                  To provide the best user experience.
-                </h2>
-                <p className="mt-6 max-w-3xl text-lg leading-7 text-gray-500">
-                  Safety, Privacy, and Convenience are all you can get.
-                </p>
+                <h2 className="text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">To provide the best user experience.</h2>
+                <p className="mt-6 max-w-3xl text-lg leading-7 text-gray-500">Safety, Privacy, and Convenience are all you can get.</p>
               </div>
             </div>
           </div>
@@ -181,9 +163,7 @@ const Landing = () => {
             <div className="relative py-10 overflow-hidden sm:w-1/2 sm:px-12 sm:py-20">
               <div className="relative">
                 <div className="text-left sm:text-center">
-                  <h2 className="text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
-                    Contact us
-                  </h2>
+                  <h2 className="text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">Contact us</h2>
                   <p className="mt-6 mx-auto max-w-2xl text-lg text-gray-500">
                     <a className="rounded hover:underline focus:outline-none focus:ring-2 focus:ring-gray-500" href="&#109;&#097;&#105;&#108;&#116;&#111;:&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#064;&#115;&#116;&#120;&#097;&#112;&#112;&#115;&#046;&#099;&#111;&#109;"><span className="e-mail" data-user="troppus" data-website="moc.sppaxts"></span></a>
                   </p>
@@ -208,12 +188,8 @@ const Landing = () => {
                 </svg>
               </a>
             </div>
-            <p className="mt-8 text-center text-base text-gray-400 sm:text-right">
-              Made with ❤ in the Land of Smiles
-            </p>
-            <p className="mt-1 text-center text-base text-gray-400 sm:text-right">
-              &copy; {(new Date()).getFullYear()} STX Apps Co., Ltd. All rights reserved.
-            </p>
+            <p className="mt-8 text-center text-base text-gray-400 sm:text-right">Made with ❤ in the Land of Smiles</p>
+            <p className="mt-1 text-center text-base text-gray-400 sm:text-right">&copy; {(new Date()).getFullYear()} STX Apps Co., Ltd. All rights reserved.</p>
           </div>
         </div>
       </footer>
